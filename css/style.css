@@ -89,7 +89,10 @@ a:active {
 
 .row,
 .row-fluid {
-  margin-bottom: 30px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .row .row,
@@ -266,6 +269,7 @@ header .logo {
   margin: -10px 0 0 0;
   float: left;
   width: 200px;
+  padding-top: 10px;
 }
 
 header .logo img {
@@ -750,7 +754,7 @@ section.callaction {
 .cta-border {
   width: 100px;
   height: 2px;
-  background:#F03C02;
+ background-image: linear-gradient(to right bottom, #7ed56f, #28b485);
   text-align: center;
   margin-bottom: 1rem;
   border-radius: 50%;
