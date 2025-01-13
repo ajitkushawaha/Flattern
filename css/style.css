@@ -89,7 +89,7 @@ a:active {
 
 .row,
 .row-fluid {
-  margin-bottom: 10px;
+  margin-bottom: 30px;
   display: flex;
   align-items: center;
   justify-content: center;
